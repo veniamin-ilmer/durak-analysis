@@ -6,13 +6,17 @@ Analyzing the win rate for strategies in the Russian game Durak (Fool)
 As a fond player of the Russian game Durak, I wanted to test how much of the game is Strategy versus Chance.
 
 I paired a "Beginner" and an "Expert" against each other in a series of simulated millions of games.
+
 The Beginner simply attacked and defended with the smallest playable card.
+
 The Expert used every single strategy possible to win.
+
 After much trial and error, I found strategies that increased the chances of winning, and ones that didn't.
 
 This game was "Reversable Durak", meaning the defender can reverse the cards back at the attacker, if the defender has a matching card.
 
 Unlike most online Durak games, I made sure that the computer never "cheated".
+
 The players were only provided the following information:
 
 * The players' own cards
@@ -23,6 +27,7 @@ The players were only provided the following information:
 The players had no ability to look into the opponent's cards, the deck's cards, or the beaten "out" deck.
 
 The players also had no ability to remember old played cards.
+
 I did this because human players don't have the ability to remember all old cards, so it's unfair for a computer to do it.
 
 ## Results
@@ -43,7 +48,9 @@ Advantage of going first at the beginning of the game:
 ### Expert Strategies
 
 Below are the different strategies used by the expert.
+
 Ordered from beginning strategies, to end game strategies.
+
 Percents are rounded to the nearest 0.5% for readability.
 
 #### Reverse using non-trump cards
@@ -139,3 +146,13 @@ Action: Attack with the Trump Ace first.
 | +0.5% | 0% | -0.5% |
 
 Note: this percentage includes other similar tricks, like using a trump King before using a trump Ace.
+
+## Conclusion
+
+If an absolute fool can still win 25% of the time against a master, this game is definitely more Chance than Strategy.
+
+The most interesting strategy finding here has been Attacking with Doubles at the end of the game.
+
+I'll be adjusting my play accordingly.
+
+I otherwise wonder: If the player can remember one single piece of information throughout gameplay, what information would be most useful to win more?
