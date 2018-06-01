@@ -31,9 +31,7 @@ The players also had no ability to remember old played cards.
 I did this because human players don't have the ability to remember all old cards, so it's unfair for a computer to do it.
 
 ## Results
-With all of the strategies, the Expert only won about 71% of the time:
-
-Here are the winning details:
+With all of the strategies, the Expert only won about 71% of the time.
 
 | Expert | Beginner | Tie |
 | --- | --- | --- |
