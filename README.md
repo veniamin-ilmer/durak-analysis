@@ -53,8 +53,8 @@ Percents are rounded to the nearest 0.5% for readability.
 
 #### Reverse using non-trump cards
 
-Conditions:
 * Defender has a matching non-trump card against the attacker.
+
 Action: Reverse the cards.
 
 | Strategy | No Strategy | Tie |
@@ -65,9 +65,9 @@ Note: This is advantageous regardless of how many cards are in the deck.
 
 #### Don't defend with trump cards
 
-Conditions:
 * More than 12 cards in the deck.
 * Can't beat the attack with non-trump cards.
+
 Action: Take the cards. Don't defend them with a trump.
 
 | Strategy | No Strategy | Tie |
@@ -76,10 +76,10 @@ Action: Take the cards. Don't defend them with a trump.
 
 #### Don't defend if you just have 1 trump card
 
-Conditions:
 * More than 9 cards in the deck.
 * Can't beat the attack with non-trump cards.
 * You only have a single trump card, and it's a high card.
+
 Action: Take the cards. Don't defend them with the one trump card.
 
 | Strategy | No Strategy | Tie |
@@ -88,9 +88,9 @@ Action: Take the cards. Don't defend them with the one trump card.
 
 #### Take any trump cards given early in the game
 
-Conditions:
 * More than 6 cards in the deck.
 * Attacking with a trump card.
+
 Action: Take the cards. Don't defend them with a higher trump.
 
 | Strategy | No Strategy | Tie |
@@ -99,8 +99,8 @@ Action: Take the cards. Don't defend them with a higher trump.
 
 #### Don't attack with trumps until the end
 
-Conditions:
 * More than 4 cards in the deck. (Attacker is not going to get the last trump deck card at the end of the game.)
+
 Action: Don't attack with with trumps. Attack with the smallest card that's not a trump.
 
 | Strategy | No Strategy | Tie |
@@ -109,10 +109,10 @@ Action: Don't attack with with trumps. Attack with the smallest card that's not 
 
 #### Defensively stop attacker from getting the last card in deck
 
-Conditions:
 * Two cards left in the deck.
 * Defender has trump a card that matches the attacker's card.
 * Especially if defender's trump card is smaller than the trump card at the end of the deck.
+
 Action: Defend using the matching trump card.
 
 | Strategy | No Strategy | Tie |
@@ -121,10 +121,10 @@ Action: Defend using the matching trump card.
 
 #### Attack with doubles at the end
 
-Conditions:
 * Two or less cards in the deck. (Or three or so cards in the deck and lots of cards are already on the table.)
 * Attacker has more than four cards.
 * Attacker has two or more cards with the same number.
+
 Action: Attack with the card that has the same number. Including trumps.
 
 | Strategy | No Strategy | Tie |
@@ -133,10 +133,10 @@ Action: Attack with the card that has the same number. Including trumps.
 
 #### Give Trump Ace First at the end
 
-Conditions:
 * No cards in the deck.
 * Only two cards in the attacker's hands.
 * Attacker has a Trump Ace.
+
 Action: Attack with the Trump Ace first.
 
 | Strategy | No Strategy | Tie |
